@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 
 
-public class HospitalA  implements  JSON_XML_HospitalA_Adapter{
+public class HospitalA  implements  Import_Export{
     ArrayList<Patient> patients=new ArrayList<>();
 
     public void addPatient(Patient p)
