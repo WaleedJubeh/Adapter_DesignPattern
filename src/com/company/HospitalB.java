@@ -10,4 +10,5 @@ public class HospitalB {
     {
         patients.add(p);
     }
+
 }

@@ -1,6 +1,6 @@
 package com.company;
 
-public class XML_JSON_Adapter implements  JSON_XML_HospitalA_Adapter{
+public class XML_JSON_Adapter implements  Import_Export{
     HospitalB hospitalB=new HospitalB();
     @Override
     public void Export(String fileName) {
