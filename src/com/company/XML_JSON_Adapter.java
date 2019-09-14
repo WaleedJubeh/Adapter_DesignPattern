@@ -70,6 +70,7 @@ public class XML_JSON_Adapter implements Import_Export {
         }
 
 
+
     }
 
     @Override
@@ -111,6 +112,11 @@ public class XML_JSON_Adapter implements Import_Export {
         } catch (IOException e) {
             System.out.println("File not found");
             System.exit(0);
+        }
+        catch ( NullPointerException e)
+        {
+            System.out.println("File not found");
+
         }
         hospitalB.importJSON("temp_data.json");
 

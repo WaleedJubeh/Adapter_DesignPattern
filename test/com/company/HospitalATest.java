@@ -32,8 +32,13 @@ public class HospitalATest {
     }
 
     @Test
-    public void importXML() {
+    public void importXML_1() {
         tester.ImportXML("testData.xml");
+    }
+
+    @Test
+    public void importXML_2() {
+        tester.ImportXML("nothing.xml");
     }
 
     @Test

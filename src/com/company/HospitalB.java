@@ -27,8 +27,6 @@ public class HospitalB {
             String[] patientBlock = file.split("\"Patients\":");
 
             for (int i = 0; i < patientBlock.length; i++) {
-                if (patientBlock[i].trim().length() == 0)
-                    continue;
                 //Get Patient data
                 String[] patients = patientBlock[i].split("},");
                 for (int patient = 0; patient < patients.length; patient++) {
@@ -56,7 +54,6 @@ public class HospitalB {
             System.out.println("File not Found");
             return;
         }
-
     }
 
     public void exportJSON(String fileName) {
@@ -75,7 +72,6 @@ public class HospitalB {
         } catch (IOException e) {
 
         }
-
     }
 
 
