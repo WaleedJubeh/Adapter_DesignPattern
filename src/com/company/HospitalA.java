@@ -35,9 +35,12 @@ public class HospitalA  implements  Import_Export{
     }
 
     @Override
-    public void ImportXML(String path) throws FileNotFoundException, UnsupportedEncodingException {
-
+    public void ImportXML(String path)  {
+        
     }
 
+    public ArrayList<Patient> getPatients() {
+        return patients;
+    }
 }
 

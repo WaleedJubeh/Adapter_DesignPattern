@@ -20,4 +20,11 @@ public class Patient {
         return lastName;
     }
 
+    @Override
+    public String toString() {
+        return "Patient{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
+    }
 }
