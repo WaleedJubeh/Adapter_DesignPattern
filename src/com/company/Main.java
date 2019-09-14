@@ -21,7 +21,7 @@ public class Main {
         XML_JSON_Adapter adapeter=new XML_JSON_Adapter(hospitalb);
         adapeter.ExportXML("Bdata");
         adapeter.ImportXML("Adata.xml");
-
+        hoso.ImportXML("Bdata.xml");
 
         System.out.println("Patients in Hospital A");
         for(int i=0;i<hoso.getPatients().size();i++)

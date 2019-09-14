@@ -59,7 +59,6 @@ public class XML_JSON_Adapter implements Import_Export {
                         writer.print("</Patient>");
 
                     }
-                    System.out.println("Done");
                 }
             }
             writer.println("</Patients>");
@@ -97,7 +96,6 @@ public class XML_JSON_Adapter implements Import_Export {
                         try {
                             String s = patientsData[patient].substring(patientsData[patient].indexOf(openAttribute[attrib]) + openAttribute[attrib].length());
                             s = s.substring(0, s.indexOf(closeAttribute[attrib]));
-                            System.out.println(s);
                             writer.println("\"" + openAttribute[attrib].substring(1, openAttribute[attrib].length() - 1) + "\":" + "\"" + s + "\",");
 
                         } catch (StringIndexOutOfBoundsException e) {

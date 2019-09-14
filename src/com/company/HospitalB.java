@@ -49,9 +49,7 @@ public class HospitalB {
                     if (temp_data.size() == 2) {
                         Patient p = new Patient(temp_data.get(0), temp_data.get(1));
                         addPatient(p);
-                        System.out.println(p.getFirstName() + " " + p.getLastName());
                     }
-                    System.out.println("Done");
                 }
             }
         } catch (IOException e) {
