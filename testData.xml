@@ -1,0 +1,14 @@
+<Patients>
+	<Patient>
+		<FirstName>Waleed</FirstName>
+		<LastName>Jubeh</LastName>
+	</Patient>
+	<Patient>
+		<FirstName>Ahmad</FirstName>
+		<LastName>Karaki</LastName>
+	</Patient>
+	<Patient>
+		<FirstName>Tameem</FirstName>
+		<LastName>Tamimi</LastName>
+	</Patient>
+</Patients>
