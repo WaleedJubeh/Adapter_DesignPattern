@@ -13,7 +13,7 @@ public class HospitalA  implements  Import_Export{
     }
 
     @Override
-    public void Export(String fileName) throws FileNotFoundException, UnsupportedEncodingException {
+    public void ExportXML(String fileName) throws FileNotFoundException, UnsupportedEncodingException {
         PrintWriter writer = new PrintWriter(fileName+".xml", "UTF-8");
         writer.println("<Patients>");
         for (int i=0;i<patients.size();i++)
@@ -35,7 +35,7 @@ public class HospitalA  implements  Import_Export{
     }
 
     @Override
-    public void Import(String path) throws FileNotFoundException, UnsupportedEncodingException {
+    public void ImportXML(String path) throws FileNotFoundException, UnsupportedEncodingException {
 
     }
 

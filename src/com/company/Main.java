@@ -12,7 +12,9 @@ public class Main {
         hoso.addPatient(a);
         Patient n =new Patient("Ahmad","Karaki");
         hoso.addPatient(n);
-        hoso.Export("data");
-
+        hoso.ExportXML("data");
+        HospitalB hospitalb=new HospitalB();
+        XML_JSON_Adapter adapeter=new XML_JSON_Adapter(hospitalb);
+        adapeter.ImportXML("data.xml");
     }
 }
